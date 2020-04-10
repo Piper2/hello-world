@@ -1,0 +1,102 @@
+*{
+    background-color: aqua;
+    margin-top: 40px;
+}
+
+body{
+    margin: 0 20px 0 20px;
+    background: #f0eff1;
+
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+    justify-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+    justify-items: center;
+    
+    
+}
+
+.center-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.renew{
+    border: solid 1px red;
+    border-radius: 20px;
+}
+.username{
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.card1{
+    height: 230px;
+    width: 250px;
+    background: white;
+    border-radius: 20px;
+}
+
+.card1-grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+
+
+    width: 100%;
+    height: 60%;
+    background: blueviolet;
+}
+
+.card1-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card2{
+    height: 500px;
+    width: 650px;
+    background: white;
+}
+
+.item1, .item2, .item3 {
+    color: white;
+}
+
+.item1{
+    margin-top: 20px;
+}
+.item3{
+    font-weight: bold;
+}
+
+
+.card-item{
+    height: 150px;
+    width: 85%;
+    background: grey;
+    border: solid 1px #f1ecec;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.multiple-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    row-gap: 15px;
+}

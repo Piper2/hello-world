@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.page-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: max-content;
+}
+
+.left{
+    background-color: white;
+}
+
+.right{
+    background-color: rgb(76, 0, 255);
+}
+
+.Email{
+    border: 1px solid;
+    border-radius: 4px;
+    height: 35px;
+  }
+
+  .Password{
+    border: 1px solid;
+    border-radius: 4px;
+    height: 35px;
+  }
+
+  .button{
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
